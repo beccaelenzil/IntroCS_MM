@@ -20,11 +20,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="listsAndStrings.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="listsAndStrings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/listsAndStrings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="1207">
               <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FunctionFun.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/FunctionFun.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -46,6 +56,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/listsAndStrings.py" />
+        <option value="$PROJECT_DIR$/FunctionFun.py" />
       </list>
     </option>
   </component>
@@ -106,7 +117,7 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$USER_HOME$" />
   </component>
-  <component name="RunManager" selected="Python.listsAndStrings">
+  <component name="RunManager" selected="Python.FunctionFun">
     <configuration default="false" name="listsAndStrings" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -120,6 +131,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="IntroCS_MM" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/listsAndStrings.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="FunctionFun" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="IntroCS_MM" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FunctionFun.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -271,12 +299,14 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Python.listsAndStrings" />
+      <item index="1" class="java.lang.String" itemvalue="Python.FunctionFun" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.listsAndStrings" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Python.FunctionFun" />
+        <item index="1" class="java.lang.String" itemvalue="Python.listsAndStrings" />
       </list>
     </recent_temporary>
   </component>
@@ -284,7 +314,7 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="14" y="24" width="1260" height="689" extended-state="0" />
+    <frame x="14" y="24" width="1260" height="689" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24939467" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -315,14 +345,24 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/listsAndStrings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="1207">
           <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FunctionFun.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
           <folding />
         </state>
       </provider>
