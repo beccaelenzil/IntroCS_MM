@@ -9,7 +9,7 @@ print 'tpl(3) is', tpl(3)
 
 def sq(x):
 
-    return 6*x
+    return x*x
 print 'sq(6) is 36: ', sq(6)
 
 def interp(low,high,fraction):
@@ -42,10 +42,12 @@ def convertFromSeconds( s ):
     days = s / (24*60*60)  # # of days
     s = s % (24*60*60)     # the leftover
     hours = s/(60*60)
+    s = s % (60*60)
     minutes = s/60
-    seconds = s % (60*60)
+    seconds = s % 60
     return [days, hours, minutes, seconds]
 print convertFromSeconds(200000)
+print convertFromSeconds(100000)
 
 def front3(str):
     """
@@ -58,3 +60,12 @@ def front3(str):
     return str[:3]*3
     print front3(str) ('a')
 
+def power(b,p):
+    result = 1
+    for x in range (p):
+        result = result*b
+print "power(2,5): should be 32 == ", power(2,5)
+print "power(5,2): should be 25 == ", power(5,2)
+print "power(42,0): should be 1 == ", power(42,0)
+print "power(0,42): should be 0 == ", power(0,42)
+print "power(0,0): should be 1 == ", power(0,0)

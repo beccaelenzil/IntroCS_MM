@@ -52,7 +52,7 @@ print answer6
 
  # Problem 7:
   # Creating the string 'arveyudd'
-answer7 = h[1:6]+m[1:3]
+answer7 = h[1:6]+m[1:3]+m[3]
 print answer7
 
  # Problem 8:
