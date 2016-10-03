@@ -6,8 +6,8 @@ def instructions ():
 def play():
   for i in range(5):
     userAnswer = -1
-    factor1 = random.randint (0, 12 )
-    factor2 = random.randint (0, 12 )
+    factor1 = random.randint (0, 15 )
+    factor2 = random.randint (0, 15 )
     correctAnswer = factor1 * factor2
     while userAnswer != correctAnswer:
       userAnswer = raw_input (" please enter the product of " + str ( factor1 ) + " and " + str (  factor2 ) + " : ")
