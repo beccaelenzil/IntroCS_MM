@@ -45,8 +45,10 @@ def dot (l,k):
         return 0
     else:
         for i in range (len(k)):
-            print i
+            #print i
             result = result + l[i] * k[i]
+
+    return result
 print "dot( [5,3], [6,4] )     42.0 ==", dot( [5,3], [6,4] )
 
 def count_evens(L):

@@ -1,0 +1,40 @@
+Total Score:
+Notes:
+-------------------------------------
+Problem 1) For Loops --- Score: 1.5/3
+Notes:
+1) You need to complete count_evens() and count9()
+2) You were missing a return statement in your dot() function. I added it for you.
+3) there is an issue with your mult function.
+
+power(2,5): should be 32 ==  32 True
+power(5,2): should be 25 ==  25 True
+power(42,0): should be 1 ==  1 True
+power(0,42): should be 0 ==  0 True
+power(0,0): should be 1 ==  1 True
+
+summedOdds( [4,5,6] ): should be 5 ==  5 True
+summedOdds( range(3,10) ): should be 24 ==  24 True
+
+mult(6,7)    42 == 42 True
+mult(6,-7)  -42 == 0 False
+mult(-6,7)  -42 == -42 True
+mult(-6,-7)  42 == 0 False
+mult(6,0)     0 == 0 True
+mult(0,7)     0 == 0 True
+mult(0,0)     0 == 0 True
+
+dot( [5,3], [6,4] )     42.0 == 42 True
+dot( [1,2,3,4], [10,100,1000,10000] )  43210.0 == 43210 True
+dot( [5,3], [6] )        0.0 == 0 True
+dot( [], [6] )           0.0 == 0 True
+dot( [], [] )            0.0 == 0 True
+
+
+-------------------------------------
+Problem 2) Multiplication Practice Game --- Score:
+Notes:
+
+-------------------------------------
+Problem 3) Guess My Number --- Score:
+Notes:
