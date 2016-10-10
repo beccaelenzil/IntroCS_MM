@@ -11,16 +11,18 @@ def play():
     correctAnswer = factor1 * factor2
     while userAnswer != correctAnswer:
       userAnswer = raw_input (" please enter the product of " + str ( factor1 ) + " and " + str (  factor2 ) + " : ")
+
+      # Becca moved some pieces around to make the logic work.
       try:
         userAnswer = int(userAnswer)
+        if userAnswer == correctAnswer:
+          print "correct"
+        else:
+          print "incorrect"
       except:
         print " Enter an integer "
-      if userAnswer == correctAnswer:
-        print "correct"
-      else:
-        print "incorrect"
-      print "game over! Keep practing"
 
+  print "game over! Keep practing"
 
 def main():
     instructions()
