@@ -53,3 +53,17 @@ print "dot( [5,3], [6,4] )     42.0 ==", dot( [5,3], [6,4] )
 
 def count_evens(L):
     result = 0
+    for x in L:
+        if x%2 == 0:
+            result += 1
+        return result
+
+def count9(L):
+    result = 0
+    for x in L:
+        if x%9 == 0:
+            result += 1
+        return result
+
+print "count9([1, 2, 9]), 1 == ",count9([1, 2, 9])
+print "count9([1, 9, 9]), 2 == ",count9([1, 9, 9])

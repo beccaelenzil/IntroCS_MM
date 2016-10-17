@@ -4,6 +4,7 @@ def instructions ():
   print "hello, I'm a computer. We're going to practice mulitplication!"
 
 def play():
+  score = 0
   for i in range(5):
     userAnswer = -1
     factor1 = random.randint (0, 15 )
@@ -17,11 +18,14 @@ def play():
         userAnswer = int(userAnswer)
         if userAnswer == correctAnswer:
           print "correct"
+          score += 1
+          print "your score is ", score
         else:
           print "incorrect"
       except:
         print " Enter an integer "
 
+  print "final score", score
   print "game over! Keep practing"
 
 def main():
