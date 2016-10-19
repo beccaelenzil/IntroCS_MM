@@ -1,11 +1,15 @@
 Total Score: 5/9
-Notes:
+Notes: Score changed to 6.5/9
 -------------------------------------
 Problem 1) For Loops --- Score: 1.5/3
 Notes:
 1) You need to complete count_evens() and count9()
 2) You were missing a return statement in your dot() function. I added it for you.
 3) there is an issue with your mult function.
+
+10/18
+1) These do not work as expected. "You need to complete count_evens() and count9()""
+3) There is still an issue: there is an issue with your mult function.
 
 power(2,5): should be 32 ==  32 True
 power(5,2): should be 25 ==  25 True
@@ -37,8 +41,13 @@ Notes: There is no enhancement
 
 Please see me to go over the logic of the basic game
 
+Nice addition of score enhancement, score changed to 3/3
+
 -------------------------------------
 Problem 3) Guess My Number --- Score: 2/3
 Notes: There is no enhancement
 
 You should let the player know what the range is
+
+10/18
+The game does not work because you did not convert low and high from strings to ints.
