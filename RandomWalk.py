@@ -57,3 +57,6 @@ def ave_sq_d(numtrials):
         posList.append(pos**2)
     avePos = sum(posList)/float(numtrials)
     return avePos
+
+
+rwsteps(5,0,10)
