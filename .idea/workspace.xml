@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4951a987-7043-4a9c-be7d-c75240285867" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Game of Life.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/RepeatedTasks.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Game of Life.py" afterPath="$PROJECT_DIR$/Game of Life.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Recurssions.py" afterPath="$PROJECT_DIR$/Recurssions.py" />
     </list>
     <ignored path="IntroCS_MM.iws" />
@@ -25,21 +24,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RandomWalk.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/RandomWalk.py">
+      <file leaf-file-name="Game of Life.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Game of Life.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12">
-              <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+            <state relative-caret-position="1428">
+              <caret line="84" column="18" selection-start-line="84" selection-start-column="18" selection-end-line="84" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Game of Life.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Game of Life.py">
+      <file leaf-file-name="SegregationModel.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SegregationModel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+            <state relative-caret-position="180">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -68,9 +67,10 @@
         <option value="$PROJECT_DIR$/Multiplication Game.py" />
         <option value="$PROJECT_DIR$/For Loops.py" />
         <option value="$PROJECT_DIR$/FactorGame.py" />
-        <option value="$PROJECT_DIR$/Game of Life.py" />
-        <option value="$PROJECT_DIR$/Recurssions.py" />
         <option value="$PROJECT_DIR$/RandomWalk.py" />
+        <option value="$PROJECT_DIR$/Recurssions.py" />
+        <option value="$PROJECT_DIR$/Game of Life.py" />
+        <option value="$PROJECT_DIR$/SegregationModel.py" />
       </list>
     </option>
   </component>
@@ -134,24 +134,7 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$USER_HOME$" />
   </component>
-  <component name="RunManager" selected="Python.RandomWalk">
-    <configuration default="false" name="Multiplication Game" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="IntroCS_MM" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Multiplication Game.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.SegregationModel">
     <configuration default="false" name="FactorGame" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -165,23 +148,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="IntroCS_MM" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FactorGame.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="For Loops" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="IntroCS_MM" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/For Loops.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -216,6 +182,40 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="IntroCS_MM" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RandomWalk.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Game of Life" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="IntroCS_MM" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Game of Life.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="SegregationModel" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="IntroCS_MM" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SegregationModel.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -368,19 +368,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Multiplication Game" />
-      <item index="1" class="java.lang.String" itemvalue="Python.FactorGame" />
-      <item index="2" class="java.lang.String" itemvalue="Python.For Loops" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Recurssions" />
-      <item index="4" class="java.lang.String" itemvalue="Python.RandomWalk" />
+      <item index="0" class="java.lang.String" itemvalue="Python.FactorGame" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Recurssions" />
+      <item index="2" class="java.lang.String" itemvalue="Python.RandomWalk" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Game of Life" />
+      <item index="4" class="java.lang.String" itemvalue="Python.SegregationModel" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.RandomWalk" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Recurssions" />
-        <item index="2" class="java.lang.String" itemvalue="Python.FactorGame" />
-        <item index="3" class="java.lang.String" itemvalue="Python.For Loops" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Multiplication Game" />
+        <item index="0" class="java.lang.String" itemvalue="Python.SegregationModel" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Game of Life" />
+        <item index="2" class="java.lang.String" itemvalue="Python.RandomWalk" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Recurssions" />
+        <item index="4" class="java.lang.String" itemvalue="Python.FactorGame" />
       </list>
     </recent_temporary>
   </component>
@@ -397,7 +397,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2452381" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2618683" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5865237" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -708,26 +708,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/RandomWalk.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RecursivePSFeedback_MM.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Recurssions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+        <state relative-caret-position="17">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SegregationModel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Game of Life.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RandomWalk.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12">
-          <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+        <state relative-caret-position="1428">
+          <caret line="84" column="18" selection-start-line="84" selection-start-column="18" selection-end-line="84" selection-end-column="18" />
           <folding />
         </state>
       </provider>
