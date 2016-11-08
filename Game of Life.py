@@ -72,13 +72,15 @@ def innerReverse(A):
         for row in range(1,width-1):
             if A[col][row] == 1:
                 newA[row][col] = 0
+            elif A[col][row] == 0:
+                newA[row][col] = 1
     return newA
 
 def countNeighbors(row,col,A):
     count = 0
     for r in range(row-1,row+2):
         for c in range(col-1,col+2):
-            count += A[row][col]
+            count += A[r][c]
         count -= A[row][col]
     return count
 
@@ -86,8 +88,8 @@ def next_life_generation(A):
     newA = copy(A)
     height = len(A)
     width = len(A[0])
-    for row in range(height):
-        for col in range(width):
+    for row in range(1,height-1):
+        for col in range(1,width-1):
             Neighborcount = countNeighbors(row,col,A)
             if Neighborcount > 3:
                 newA[row][col] = 0
