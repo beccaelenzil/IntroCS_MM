@@ -43,7 +43,8 @@ def innerCells(width, height):
     for col in range (1, width-1):
         for row in range(1,height-1):
             A[row][col]=1
-        print(row,col)
+        #print(row,col)
+    return A
 
 def randomCells(width, height):
     A = createBoard(width,height)
@@ -51,7 +52,7 @@ def randomCells(width, height):
         for row in range(1,height-1):
             A[row][col] = random.choice([0,1])
         #print (row,col)
-        return A
+    return A
 
 
 def copy(A):
@@ -71,7 +72,7 @@ def innerReverse(A):
         for row in range(1,width-1):
             if A[col][row] == 1:
                 newA[row][col] = 0
-        return newA
+    return newA
 
 def countNeighbors(row,col,A):
     count = 0
@@ -79,7 +80,7 @@ def countNeighbors(row,col,A):
         for c in range(col-1,col+2):
             count += A[row][col]
         count -= A[row][col]
-        return count
+    return count
 
 def next_life_generation(A):
     newA = copy(A)
@@ -88,12 +89,12 @@ def next_life_generation(A):
     for row in range(height):
         for col in range(width):
             Neighborcount = countNeighbors(row,col,A)
-        if Neighborcount > 3:
-            newA[row][col] = 0
-        elif Neighborcount < 2:
-            newA[row][col]= 0
-        elif Neighborcount == 3:
-            newA[row][col] = 1
+            if Neighborcount > 3:
+                newA[row][col] = 0
+            elif Neighborcount < 2:
+                newA[row][col]= 0
+            elif Neighborcount == 3:
+                newA[row][col] = 1
     return newA
 
 A = randomCells(10,10)
