@@ -1,0 +1,97 @@
+Total Score: 2/6
+Notes: Late, -1, innerCells, innerReverse, randomCells, and nextLifeGen() not working (-3)
+-------------------------------------
+
+diagonalize()
+-------------------------------------
+10000
+01000
+00100
+00010
+00001
+innerReverse()
+-------------------------------------
+00000
+00000
+00000
+00000
+00000
+
+innerCells()
+-------------------------------------
+(3, 1)
+(3, 2)
+(3, 3)
+>>> print 'randomCells()'
+print "------------------------------------- "
+A = randomCells(5,5)
+printBoard(A)
+
+randomCells()
+-------------------------------------
+00000
+00000
+00000
+00000
+00000
+>>> print 'countNeighbors()'
+print "------------------------------------- "
+A = [ [0,0,0,0,0],
+      [0,0,1,0,0],
+      [0,0,1,0,0],
+      [0,0,1,0,0],
+      [0,0,0,0,0]]
+print 'A = '
+printBoard(A)
+print 'countNeighbors(2,2,A) = 2:',countNeighbors(2,2,A), 2 == countNeighbors(2,2,A)
+print ' '
+
+countNeighbors()
+-------------------------------------
+A =
+00000
+00100
+00100
+00100
+00000
+countNeighbors(2,2,A) = 2: 2 True
+
+>>> print 'next_life_generation()'
+print "------------------------------------- "
+A = [ [0,0,0,0,0],
+      [0,0,1,0,0],
+      [0,0,1,0,0],
+      [0,0,1,0,0],
+      [0,0,0,0,0]]
+print 'A = '
+printBoard(A)
+A2 = next_life_generation(A)
+print "A2 = next_life_generation(A) --> printBoard(A2) should look like"
+print '00000'
+print '00000'
+print '01110'
+print '00000'
+print '00000'
+print 'and it looks like'
+printBoard(A2)
+
+next_life_generation()
+-------------------------------------
+A =
+00000
+00100
+00100
+00100
+00000
+A2 = next_life_generation(A) --> printBoard(A2) should look like
+00000
+00000
+01110
+00000
+00000
+and it looks like
+00000
+00100
+00100
+00100
+00000
