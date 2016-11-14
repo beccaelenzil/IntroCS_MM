@@ -1,9 +1,9 @@
 Total Score: Late -1 (Changed not commited to github)
 
-Total Score: 2/6
+Total Score: 4/6
 Notes:
 -------------------------------------
-Problem 1) Recursive Drawing: 0/3
+Problem 1) Recursive Drawing: 0/3, no chai (2/3)
 Notes: still no link to your recursive drawing trinket
 
 -------------------------------------

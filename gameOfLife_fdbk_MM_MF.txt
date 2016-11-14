@@ -1,5 +1,7 @@
 Total Score: 2/6
 Notes: Late, -1, innerCells, innerReverse, randomCells, and nextLifeGen() not working (-3)
+
+We fixed these together, score changed to 5/6
 -------------------------------------
 
 diagonalize()
