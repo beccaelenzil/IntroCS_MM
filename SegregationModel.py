@@ -84,10 +84,11 @@ def next_life_generation(A, threshold):
     for row in range(1,height-1):
         for col in range(1,width-1):
             [like, total] = countNeighbors(row,col,A)
-            if float(like)/total < threshold and i < len(emptyList) and total > 0:
+            # I added  " and A[row][col] != ' ' " so that we do not move around empty spaces
+            if float(like)/total < threshold and i < len(emptyList) and total > 0 and A[row][col] != ' ':
                 newA[row][col] = ' '
                 #print "I moved"
-                # print emptyList[i][0], emptyList[i][1]
+                print emptyList[i][0], emptyList[i][1]
                 newA[emptyList[i][0]][emptyList[i][1]] = A[row][col]
                 i += 1
     return newA
@@ -100,12 +101,9 @@ def Segregation (A, thershold, percA, percB):
 
 
 A = populateBoard(5,5,.4,.4)
-#printBoard(A)
-#print(emptyIndex(A))
-
-
-for i in range(10):
-    A = next_life_generation(A,0.3)
+printBoard(A)
+for i in range(1):
+    A = next_life_generation(A,0.5)
     printBoard(A)
     print " "
 
