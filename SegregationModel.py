@@ -91,7 +91,8 @@ def next_life_generation(A, threshold):
                 #print emptyList[i][0], emptyList[i][1]
                 newA[emptyList[i][0]][emptyList[i][1]] = A[row][col]
                 i += 1
-    return newA
+    static = (newA == A)
+    return [static, A]
 
 def Segregation (A, thershold, percA, percB):
     newA = copy(A)
@@ -100,12 +101,45 @@ def Segregation (A, thershold, percA, percB):
     i = 0
 
 
-A = populateBoard(5,5,.4,.4)
+
+def segregationIndex(A):
+    """
+    takes in a matrix and returns a segregation index
+    """
+    segregation = copy(A)
+    segregationList = []
+
+    height = len(A)
+    width = len(A[0])
+
+    for row in range(1,height-1):
+        for col in range(1,width-1):
+            if A[row][col] != ' ':
+                [sameNeighbors, totalNeighbors] = countNeighbors(row,col,A)
+                segregation[row][col] = float(sameNeighbors)/float(totalNeighbors)
+                # I could make a heat map of segregation
+
+                # put it into a list so we can easily take the average
+                segregationList.append(segregation[row][col])
+
+    # take the average of the segregationIndex for each cell to get a single metric
+    segregationIndex = sum(segregationList)/len(segregationList)
+
+    return [segregation, segregationIndex]
+
+A = populateBoard(10,10,.3,.3)
 printBoard(A)
-for i in range(1):
-    A = next_life_generation(A,0.5)
-    printBoard(A)
+print " "
+static = False
+i = 0
+'''
+while static == False and i<1000:
+    [static, A] = next_life_generation(A,0.3)
+    #printBoard(A)
     print " "
+    i += 1
+    print i
+'''
 
-
-
+[seg, segI] = segregationIndex(A)
+print segI
