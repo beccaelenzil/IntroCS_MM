@@ -88,7 +88,7 @@ def next_life_generation(A, threshold):
             if float(like)/total < threshold and i < len(emptyList) and total > 0 and A[row][col] != ' ':
                 newA[row][col] = ' '
                 #print "I moved"
-                print emptyList[i][0], emptyList[i][1]
+                #print emptyList[i][0], emptyList[i][1]
                 newA[emptyList[i][0]][emptyList[i][1]] = A[row][col]
                 i += 1
     return newA
