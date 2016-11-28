@@ -102,7 +102,7 @@ def Segregation (A, thershold, percA, percB):
 
 A = populateBoard(5,5,.4,.4)
 printBoard(A)
-for i in range(1):
+for i in range(10):
     A = next_life_generation(A,0.5)
     printBoard(A)
     print " "
